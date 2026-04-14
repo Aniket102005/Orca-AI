@@ -69,11 +69,11 @@ pip install -r requirements.txt
 </code></pre>
 
 <h3>3. Configure Environment</h3>
-<pre><code>POSTGRES_USER=argo_user
+<pre><code>POSTGRES_USER=orca_admin
 POSTGRES_PASSWORD=your_secure_password
 POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
-POSTGRES_DB=argo_db
+POSTGRES_DB=argo_floatchat
 GOOGLE_API_KEY=your_google_api_key
 </code></pre>
 
