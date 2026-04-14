@@ -73,7 +73,7 @@ pip install -r requirements.txt
 POSTGRES_PASSWORD=your_secure_password
 POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
-POSTGRES_DB=argo_floatchat
+POSTGRES_DB=orca_floatchat
 GOOGLE_API_KEY=your_google_api_key
 </code></pre>
 
@@ -144,4 +144,4 @@ docker-compose down
   <li>If <code>"data": []</code> is returned, re-run <code>python run_ingestion.py</code> to reload data.</li>
   <li>Ensure Docker is running and .env variables are correctly set.</li>
 </ul>
-<h4>Please note that the we have used <b>Gemini</b> and <b>Chat GPT</b> LLMs for almost 70-80% of the coding</h4>
+
